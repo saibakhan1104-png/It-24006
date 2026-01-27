@@ -56,7 +56,7 @@ public class NumberConversionClass {
         return Integer.parseInt(hex, 16); 
     } 
 } 
-  4) CustomPrintCLass:  
+ 
 package ict_22; 
  
 public class CustomPrintClass { 
@@ -75,10 +75,8 @@ public class MainClass {
         double sum = SumClass.calculateSum(); 
         CustomPrintClass.pr("Sum of 1 + 0.9 + ... + 0.1 = " + sum); 
         int a = 12, b = 18; 
-        CustomPrintClass.pr("GCD of " + a + " and " + b + " = " + DivisorMultipleClass.gcd(a, 
-b)); 
-        CustomPrintClass.pr("LCM of " + a + " and " + b + " = " + DivisorMultipleClass.lcm(a, 
-b)); 
+        CustomPrintClass.pr("GCD of " + a + " and " + b + " = " + DivisorMultipleClass.gcd(a, b)); 
+        CustomPrintClass.pr("LCM of " + a + " and " + b + " = " + DivisorMultipleClass.lcm(a, b)); 
         int dec = 25; 
         CustomPrintClass.pr("Decimal " + dec + " -> Binary = " + 
 NumberConversionClass.decimalToBinary(dec)); 
